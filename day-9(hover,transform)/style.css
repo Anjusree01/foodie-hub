@@ -1,0 +1,37 @@
+
+
+.container{
+    height:100px;
+    width: 100px;
+    background-color: green;
+    transition: all 1s ease-in 0.5s;
+}
+
+/* z-index will work only with position*/
+.container:hover{
+    /*border-radius: 50%;*/
+    /*rotate:5deg;*/
+    /*transform: rotate(360deg);*/
+    /*move left*/
+    transform: moveX(100px);
+    /*move right*/
+    transform: moveY(100px);
+    /*move */
+    transform: translateX(50%);
+    transform: translateX(-100px);
+    transform: translateY(-100px);
+     transform: translateY(100px);
+     /*scale-increses by 5 times*/
+    transform :scale(5);
+    transform :scaleX(5);
+    transform :scaleY(5);
+    /*skew - change acc to digonal*/
+    transform: skew(30deg);
+    transform: skewX(30deg);
+    transform: skewY(30deg);
+    /*rotate*/
+    transform: rotate(360deg);
+    /*bounce*/
+    transform:bounce(5);
+
+}

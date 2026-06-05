@@ -1,0 +1,30 @@
+.box-1{
+    height:100px;
+    width:100px;
+    background-color: red;
+    transition: all 1s ease-in 0.5s;
+}
+.box-1:hover{
+    transform:translate(100px);
+}
+.box-2{
+    height:100px;
+    width:100px;
+    background-color: blue;
+    transition: all 1s ease-in-out 0.5s;
+}
+.box-2:hover{
+    transform:rotate(45deg);
+
+}
+
+.box-3{
+    height:100px;
+    width:100px;
+    border-color:green;
+    border-radius:50%;
+    transition: all 1s ease-out 0.5s;
+}
+.box-3:hover{
+    transform:scale(1.5);
+}

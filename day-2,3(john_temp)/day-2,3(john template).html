@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style> 
+        body{
+            padding: 0 50px;
+        }
+    
+        tr,th,td{
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .Project-container {
+            height: 400px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .project-box {
+            border: 1px solid black;
+            height: 200px;
+            width: 25%;
+            padding: 10px;
+        }
+
+        .image-container{
+            height:150px;
+            width:200px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>John Doe</h1>
+    <h5>Web Developer | Student</h5>
+    <a href="">About me |</a>
+    <a href="">Achievements |</a>
+    <a href="">Education |</a>
+    <a href="">Projects |</a>
+    <a href="">Contact</a>
+
+    <hr>
+    
+    <h4>About me</h4>
+    <p>Hello!Iam John Doe ,a web development student.<br>
+        I am learning HTML ,and building simple web pages.</p>
+    <div class="image-container">
+        
+    </div>
+
+    <hr>
+
+    <h4>Achievements</h4>
+    <!-- <ol style="list-style-type:decimal;">
+        <li>keerthi</li>
+        <li>prasanna</li>
+        <li>karla</li>
+    </ol>
+    <p>leela</p>
+    <ol style="list-style-type:decimal;" start="4" end="5">
+        <li>keerthi</li>
+        <li>prasanna</li>
+        <li>karla</li>
+    </ol> -->
+
+    
+    <ul style="list-style-type:disc;">
+        <li>Completed html course</li>
+        <li>built multiple small projects using html</li>
+        <li>consistently learning and improving</li>
+        <li>practice problem solving and logical thinking</li>
+    </ul>
+
+    <hr>
+
+    <!-- tr*3>td*3 cellspacing="50" cellpadding="50"-->
+    <h4>Education</h4>
+    <table border="1" cellspacing="0"  style="border: 1px solid; height:100px; width:100%";>
+
+        <tr >
+        <th >Qualification</th>
+        <th>Institution</th>
+        <th>Year</th>
+        <th>Location</th>
+        </tr>
+
+        <tr>                <!--<tr align="center">  or we can write this we not mentioned in header-->
+            <td >High School</td>
+            <td>XYZ High School</td>
+            <td>2018-2020</td>
+            <td>New York,USA</td>
+        </tr>
+        <tr>
+            <td>Bachelor of Information Technology</td>
+            <td>ABC University</td>
+            <td>2022-2026</td>
+            <td>New York,USA</td>
+        </tr>
+        
+    </table>
+    <hr>
+    <h3>Projects</h3>
+    <div class="Project-container">
+        
+        <div class="project-box" >
+        <h5>Portfolio Website</h5>
+        <p>A personal portfolio built using HTML to showcase my skills </p>
+        <a href="">View Project</a>
+        </div>
+
+        <div  class="project-box">
+        <h5>Student Registration Form</h5>
+        <p>A simple registration form created using HTML form elements</p>
+        <a href="">View Project</a>
+        </div>
+
+        <div  class="project-box">
+        <h5>Simple Calculator</h5>
+        <p>A basic calculator built using HTML and Javascript</p>
+        <a href="">View Project</a>
+        </div>
+    </div>
+    <hr>
+    <h4>Contact</h4>
+    <p><i class="fa-regular fa-envelope"></i>Email:<a href="">johndoe@gmail.com</a></p>
+    <p><i class="fa-brands fa-square-github fa-sm"></i>Github:<a href="">github.com</a></p>
+    <p><i class="fa-solid fa-globe"></i></i>Website:<a href="">johndoe.com</a></p>
+    <p><i class="fa-solid fa-location-dot"></i>Location: New York,USA</p>
+    <hr>
+    <h3>Declaration</h3>
+    <p>I here by declare that all the information provided above is true and correct to the best of my knowledge</p>
+    <h5 align="right">-John Doe</h5>
+
+    <hr>
+
+    <h5 align="center"> @2024 John Doe. All rights reserved.</h5>
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+    height : auto;
+    width: 100vw;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(1.1fr);
+    grid-template-rows: 90px 400px 300px ;
+
+}
+
+nav{
+    background-color: red;
+}
+
+.section1{
+    background-color: green;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.s1-b{
+    background-color:black;
+    border: 1px solid white;
+    height:100%
+}
+
+.section2{
+    background-color: blue;
+}
+
+.section3{
+    background-color: pink;
+
+}
+
+.section4{
+    background-color: white;
+}
+
+.section5{
+    background-color: orange;
+}
+
+.footer{
+    background-color: orangered;
+}
