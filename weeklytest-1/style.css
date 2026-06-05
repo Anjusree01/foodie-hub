@@ -23,7 +23,7 @@ nav{
 
 .food{
     height:60vh;
-    background-image:url("food.png");
+    background-image:url("images/food.png");
     background-size:cover;
     background-position:center;
     display:flex;
